@@ -1,0 +1,2539 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\aes256.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\compression.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\config_file.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_buffered.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_compressed.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_encrypted.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_memory.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_network.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_pack.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_zip.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\http_client.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\image_loader.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\ip.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\ip_address.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\json.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\marshalls.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\md5.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\packet_peer.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\packet_peer_udp.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_format_binary.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_format_xml.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_loader.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_saver.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer_ssl.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer_tcp.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\tcp_server.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\translation_loader_po.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\xml_parser.cpp">
+      <Filter>core\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf\bfs.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast\casts.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des\des3s.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des\dess.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4\md4s.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\md4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5\md5s.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4\rc4s.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5\rc5s.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gl_context\context_gl.cpp">
+      <Filter>drivers\gl_context</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\jpg\image_loader_jpg.cpp">
+      <Filter>drivers\jpg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\mpc\audio_stream_mpc.cpp">
+      <Filter>drivers\mpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nedmalloc\memory_pool_static_nedmalloc.cpp">
+      <Filter>drivers\nedmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nedmalloc\nedmalloc.cpp">
+      <Filter>drivers\nedmalloc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\openssl\register_openssl.cpp">
+      <Filter>drivers\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\openssl\stream_peer_openssl.cpp">
+      <Filter>drivers\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\opus\audio_stream_opus.cpp">
+      <Filter>drivers\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\png\image_loader_png.cpp">
+      <Filter>drivers\png</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\png\resource_saver_png.cpp">
+      <Filter>drivers\png</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\speex\audio_stream_speex.cpp">
+      <Filter>drivers\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\speex\speex_bind.cpp">
+      <Filter>drivers\speex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\theora\video_stream_theora.cpp">
+      <Filter>drivers\theora</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\vorbis\audio_stream_ogg_vorbis.cpp">
+      <Filter>drivers\vorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\audio_driver_jandroid.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\audio_driver_opensl.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\dir_access_android.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\dir_access_jandroid.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\file_access_android.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\file_access_jandroid.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\godot_android.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\ifaddrs_android.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_bind.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_class_wrapper.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_glue.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\os_android.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\thread_jandroid.cpp">
+      <Filter>platform\android</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\audio_driver_bb10.cpp">
+      <Filter>platform\bb10</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\godot_bb10.cpp">
+      <Filter>platform\bb10</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\os_bb10.cpp">
+      <Filter>platform\bb10</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\payment_service.cpp">
+      <Filter>platform\bb10</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\animation.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\audio_stream.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\audio_stream_resampled.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\baked_light.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\bit_mask.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\bounds.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\box_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\canvas.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\capsule_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\capsule_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\circle_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\color_ramp.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\concave_polygon_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\concave_polygon_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\convex_polygon_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\convex_polygon_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\curve.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\environment.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\event_stream.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\font.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\gibberish_stream.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\height_map_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\material.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh_data_tool.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh_library.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\multimesh.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\packed_scene.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\plane_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\polygon_path_finder.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\ray_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\rectangle_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\rich_text.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\room.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sample.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sample_library.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\scene_format_text.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\scene_preloader.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\segment_shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shader.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shader_graph.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape_line_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\space_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sphere_shape.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\style_box.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\surface_tool.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\texture.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\theme.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\tile_set.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\video_stream.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\volume.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\world.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\world_2d.cpp">
+      <Filter>scene\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_containers.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_detailer.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_gdscript.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_gui.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_image.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_io.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_main.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_math.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_misc.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_particles.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_physics.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_physics_2d.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_python.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_render.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_shader_lang.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_sound.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_string.cpp">
+      <Filter>bin\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\array.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\color.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\command_queue_mt.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\compressed_translation.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\core_string_names.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\dictionary.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\dvector.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\error_macros.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\event_queue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\fpstr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\func_ref.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\globals.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\global_constants.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\global_defaults.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\image.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\image_quantize.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\input_map.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\message_queue.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\method_bind.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\object.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\object_type_db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\packed_data_container.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\pair.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\path_db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\path_remap.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\pool_allocator.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\print_string.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\reference.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\ref_ptr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\register_core_types.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\resource.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\res_ptr.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\rid.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\safe_refcount.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_debugger.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_local.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_remote.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\script_encryption_key.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\script_language.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\string_db.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\translation.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\undo_redo.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\ustring.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\variant.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_call.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_construct_string.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_op.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_parser.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\vmap.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\vset.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\bind\core_bind.cpp">
+      <Filter>core\bind</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\aabb.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\bezier_curve.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\bsp_tree.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\camera_matrix.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\face3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\geometry.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_2d.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_defs.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_funcs.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\matrix3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\plane.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\quat.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\quick_hull.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\transform.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangle_mesh.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangulate.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangulator.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\math\vector3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\copymem.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\dir_access.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\file_access.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\input.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\input_event.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\keyboard.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\main_loop.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic_prealloc.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic_static.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_static.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\mutex.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\os.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\semaphore.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\shell.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread_dummy.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread_safe.cpp">
+      <Filter>core\os</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\register_driver_types.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\alsa\audio_driver_alsa.cpp">
+      <Filter>drivers\alsa</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd\asm\rips.cpp">
+      <Filter>drivers\builtin_openssl2\crypto\ripemd\asm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_envelope.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_file_access_wrapper.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_instrument.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_info.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_instruments.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_patterns.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_samples.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_mod.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_s3m.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_xm.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_pattern.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_control.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_effects.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_envelopes.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_events.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_filter.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_nna.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_notes.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_reserved.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_utils.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_sample.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_sample_manager.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_song.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_tables.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\event_stream_chibi.cpp">
+      <Filter>drivers\chibi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2d_decompose.cpp">
+      <Filter>drivers\convex_decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2Polygon.cpp">
+      <Filter>drivers\convex_decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2Triangle.cpp">
+      <Filter>drivers\convex_decomp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\dds\texture_loader_dds.cpp">
+      <Filter>drivers\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\etc1\image_etc.cpp">
+      <Filter>drivers\etc1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\etc1\rg_etc1.cpp">
+      <Filter>drivers\etc1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\rasterizer_gles2.cpp">
+      <Filter>drivers\gles2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\rasterizer_instance_gles2.cpp">
+      <Filter>drivers\gles2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\shader_compiler_gles2.cpp">
+      <Filter>drivers\gles2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\shader_gles2.cpp">
+      <Filter>drivers\gles2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nrex\nrex.cpp">
+      <Filter>drivers\nrex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nrex\regex.cpp">
+      <Filter>drivers\nrex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pulseaudio\audio_driver_pulseaudio.cpp">
+      <Filter>drivers\pulseaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\BitScale.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\MortonTable.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcDecoder.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcEncoder.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcPacket.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\texture_loader_pvr.cpp">
+      <Filter>drivers\pvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\rtaudio\audio_driver_rtaudio.cpp">
+      <Filter>drivers\rtaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\rtaudio\RtAudio.cpp">
+      <Filter>drivers\rtaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\alpha.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\clusterfit.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourblock.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourfit.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourset.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\image_compress_squish.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\maths.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\rangefit.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\singlecolourfit.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\squish.cpp">
+      <Filter>drivers\squish</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\dir_access_unix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\file_access_unix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\ip_unix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\memory_pool_static_malloc.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\mutex_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\os_unix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\os_unix_global_settings_path.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\packet_peer_udp_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\semaphore_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\stream_peer_tcp_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\tcp_server_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\thread_posix.cpp">
+      <Filter>drivers\unix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\webp\image_loader_webp.cpp">
+      <Filter>drivers\webp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\webpold\image_loader_webp.cpp">
+      <Filter>drivers\webpold</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\dir_access_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\file_access_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\mutex_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\semaphore_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\shell_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\thread_windows.cpp">
+      <Filter>drivers\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\main\input_default.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\main\performance.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\register_module_types.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_compiler.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_editor.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_functions.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_parser.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_pretty_print.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_script.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_tokenizer.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\register_types.cpp">
+      <Filter>modules\gdscript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\grid_map.cpp">
+      <Filter>modules\gridmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\grid_map_editor_plugin.cpp">
+      <Filter>modules\gridmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\register_types.cpp">
+      <Filter>modules\gridmap</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\export\export.cpp">
+      <Filter>platform\android\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\globals\global_defaults.cpp">
+      <Filter>platform\android\globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\export\export.cpp">
+      <Filter>platform\bb10\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\dir_access_flash.cpp">
+      <Filter>platform\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\godot_flash.cpp">
+      <Filter>platform\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\os_flash.cpp">
+      <Filter>platform\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\rasterizer_flash.cpp">
+      <Filter>platform\flash</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\audio_driver_media_kit.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\context_gl_haiku.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\godot_haiku.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_application.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_direct_window.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_gl_view.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\key_mapping_haiku.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\os_haiku.cpp">
+      <Filter>platform\haiku</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\audio_driver_iphone.cpp">
+      <Filter>platform\iphone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\godot_iphone.cpp">
+      <Filter>platform\iphone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\os_iphone.cpp">
+      <Filter>platform\iphone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\rasterizer_iphone.cpp">
+      <Filter>platform\iphone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\sem_iphone.cpp">
+      <Filter>platform\iphone</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\globals\global_defaults.cpp">
+      <Filter>platform\iphone\globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\audio_driver_javascript.cpp">
+      <Filter>platform\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\audio_server_javascript.cpp">
+      <Filter>platform\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\javascript_main.cpp">
+      <Filter>platform\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\os_javascript.cpp">
+      <Filter>platform\javascript</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\export\export.cpp">
+      <Filter>platform\javascript\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\audio_driver_nacl.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\context_gl_nacl.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\geturl_handler.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\godot_module.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\godot_nacl.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\opengl_context.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\os_nacl.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\pepper_main.cpp">
+      <Filter>platform\nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\audio_driver_osx.cpp">
+      <Filter>platform\osx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\context_gl_osx.cpp">
+      <Filter>platform\osx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\sem_osx.cpp">
+      <Filter>platform\osx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\export\export.cpp">
+      <Filter>platform\osx\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\server\godot_server.cpp">
+      <Filter>platform\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\server\os_server.cpp">
+      <Filter>platform\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\context_gl_win.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\ctxgl_procaddr.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\godot_win.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\joystick.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\key_mapping_win.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\os_windows.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\packet_peer_udp_winsock.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\stream_peer_winsock.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\tcp_server_winsock.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\export\export.cpp">
+      <Filter>platform\windows\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\app.cpp">
+      <Filter>platform\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\gl_context_egl.cpp">
+      <Filter>platform\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\os_winrt.cpp">
+      <Filter>platform\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\thread_winrt.cpp">
+      <Filter>platform\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\context_gl_x11.cpp">
+      <Filter>platform\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\godot_x11.cpp">
+      <Filter>platform\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\joystick_linux.cpp">
+      <Filter>platform\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\key_mapping_x11.cpp">
+      <Filter>platform\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\os_x11.cpp">
+      <Filter>platform\x11</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\export\export.cpp">
+      <Filter>platform\x11\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\register_scene_types.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\scene_string_names.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\animated_sprite.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\area_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\back_buffer_copy.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\camera_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\canvas_item.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\canvas_modulate.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_object_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_polygon_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_shape_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\joints_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\light_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\light_occluder_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\navigation2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\navigation_polygon.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\node_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\node_2d_singleton.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\parallax_background.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\parallax_layer.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\particles_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\path_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\path_texture.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\physics_body_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\polygon_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\position_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\ray_cast_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\remote_transform_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sample_player_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\screen_button.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sound_player_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sprite.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\tile_map.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\visibility_notifier_2d.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\y_sort.cpp">
+      <Filter>scene\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\area.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\baked_light_instance.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\body_shape.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\bone_attachment.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\camera.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\character_camera.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\collision_object.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\collision_polygon.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\immediate_geometry.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\interpolated_camera.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\light.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\mesh_instance.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\multimesh_instance.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation_agent.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation_mesh.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\optimized_spatial_scene.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\particles.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\path.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\physics_body.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\physics_joint.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\portal.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\position_3d.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\proximity_group.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\quad.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\ray_cast.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\room_instance.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\scenario_fx.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\skeleton.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_indexer.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_player.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_sample_player.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_stream_player.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\sprite_3d.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\test_cube.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\vehicle_body.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\visibility_notifier.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\visual_instance.cpp">
+      <Filter>scene\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_cache.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_player.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_tree_player.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\transitioner.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\tween.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\tween_interpolaters.cpp">
+      <Filter>scene\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\event_player.cpp">
+      <Filter>scene\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\sample_player.cpp">
+      <Filter>scene\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\sound_room_params.cpp">
+      <Filter>scene\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\stream_player.cpp">
+      <Filter>scene\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\base_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\box_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button_array.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button_group.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\center_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\check_box.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\check_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\color_picker.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\color_ramp_edit.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\control.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\custom_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\dialogs.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\file_dialog.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\graph_edit.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\graph_node.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\grid_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\item_list.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\label.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\line_edit.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\margin_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\menu_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\option_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\panel.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\panel_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\patch_9_frame.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\popup.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\popup_menu.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\progress_bar.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\range.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\reference_frame.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\rich_text_label.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\scroll_bar.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\scroll_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\separator.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\slider.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\spin_box.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\split_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tabs.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tab_container.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_frame.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_progress.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\text_edit.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tool_button.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tree.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\video_player.cpp">
+      <Filter>scene\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\io\resource_format_image.cpp">
+      <Filter>scene\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\io\resource_format_wav.cpp">
+      <Filter>scene\io</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\canvas_layer.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\instance_placeholder.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\misc.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\node.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\resource_preloader.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\scene_main_loop.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\scene_singleton.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\timer.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\viewport.cpp">
+      <Filter>scene\main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\default_theme\default_theme.cpp">
+      <Filter>scene\resources\default_theme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\register_server_types.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_2d_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual_server.cpp">
+      <Filter>servers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_driver_dummy.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_filter_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_mixer_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_rb_resampler.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_server_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\reverb_buffers_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\reverb_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\sample_manager_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\voice_rb_sw.cpp">
+      <Filter>servers\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\area_pair_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\area_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\body_pair_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\body_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_basic.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_octree.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_object_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_solver_sat.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_solver_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\constraint_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\gjk_epa.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\physics_server_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\shape_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\space_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\step_sw.cpp">
+      <Filter>servers\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\cone_twist_joint_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\generic_6dof_joint_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\hinge_joint_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\jacobian_entry_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\pin_joint_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\slider_joint_sw.cpp">
+      <Filter>servers\physics\joints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\area_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\area_pair_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\body_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\body_pair_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_basic.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_hash_grid.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_object_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_solver_2d_sat.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_solver_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\constraint_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\joints_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\physics_2d_server_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\physics_2d_server_wrap_mt.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\shape_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\space_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\step_2d_sw.cpp">
+      <Filter>servers\physics_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound\spatial_sound_server_sw.cpp">
+      <Filter>servers\spatial_sound</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_2d\spatial_sound_2d_server_sw.cpp">
+      <Filter>servers\spatial_sound_2d</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\particle_system_sw.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\rasterizer.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\rasterizer_dummy.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_compiler.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_graph.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_language.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\visual_server_raster.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\visual_server_wrap_mt.cpp">
+      <Filter>servers\visual</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\collada\collada.cpp">
+      <Filter>tools\collada</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\doc\doc_data.cpp">
+      <Filter>tools\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\docdump\doc_dump.cpp">
+      <Filter>tools\docdump</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\animation_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\array_property_edit.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\call_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\code_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\connections_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\console.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\create_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\default_saver.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\dependency_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_data.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_dir_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_file_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_file_system.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_fonts.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_help.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_icons.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_import_export.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_log.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_name_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_node.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_path.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_plugin.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_reimport_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_resource_preview.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run_native.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run_script.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_selection.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_settings.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_sub_scene.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_vu.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\file_type_cache.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\groups_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\import_settings.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\inspector_dock.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\multi_node_edit.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\optimized_save_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\output_strings.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\pane_drag.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\progress_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_export.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_manager.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_settings.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\property_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\pvrtc_compress.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\quick_open.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\register_exporters.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\reparent_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\resources_dock.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\run_settings_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scenes.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scenes_dock.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scene_tree_dock.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scene_tree_editor.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\script_create_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\script_editor_debugger.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\settings_config_dialog.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\spatial_editor_gizmos.cpp">
+      <Filter>tools\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\fileserver\editor_file_server.cpp">
+      <Filter>tools\editor\fileserver</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_atlas.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_export_scene.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_font_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_import_collada.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_mesh_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_sample_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_scene_importer_fbxconv.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_scene_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_texture_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_translation_import_plugin.cpp">
+      <Filter>tools\editor\io_plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_data_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_player_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_tree_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_baker.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_baker_cmpxchg.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\camera_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\canvas_item_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_polygon_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_polygon_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_shape_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\color_ramp_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\control_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\cube_grid_theme_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\editor_preview_plugins.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\item_list_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\light_occluder_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\mesh_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\multimesh_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\navigation_polygon_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\particles_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\particles_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\path_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\path_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\polygon_2d_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\resource_preloader_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\rich_text_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_library_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_player_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\script_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\shader_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\shader_graph_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\spatial_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sprite_frames_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sprite_region_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\stream_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\style_box_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\theme_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\tile_map_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\tile_set_editor_plugin.cpp">
+      <Filter>tools\editor\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pck\pck_packer.cpp">
+      <Filter>tools\pck</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\entropy.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\file_version_info.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\message_table.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_base.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_bliss_godot.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_bound_import.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_checksum.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_debug.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_directory.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_dotnet.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exception.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exception_directory.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exports.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_factory.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_imports.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_load_config.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_properties.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_properties_generic.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_rebuilder.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_relocations.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resources.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resource_manager.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resource_viewer.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_rich_data.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_section.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_tls.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_bitmap_reader.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_bitmap_writer.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_cursor_icon_reader.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_cursor_icon_writer.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_data_info.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_message_list_reader.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_string_table_reader.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_version_info_reader.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_version_info_writer.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\utils.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\version_info_editor.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\version_info_viewer.cpp">
+      <Filter>tools\pe_bliss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\godot-gcc5.2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="scene\resources\default_theme">
+      <UniqueIdentifier>{F3EFB66A-54E6-4782-B1B8-80A4E32EA7CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\x11\export">
+      <UniqueIdentifier>{207B4AFE-22E0-4814-BB89-759D535D5F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows\export">
+      <UniqueIdentifier>{1C415993-E2DF-4B61-B012-D9025FE1FCA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\bb10\export">
+      <UniqueIdentifier>{8536FD5D-8462-4C3C-9DF3-74E3E64DB85A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\iphone\globals">
+      <UniqueIdentifier>{61CD6C5E-2FCF-4981-B6D9-7DED56C3F745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\javascript\export">
+      <UniqueIdentifier>{77A86D5C-40EF-4047-9C38-93822A5438A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\osx\export">
+      <UniqueIdentifier>{1BBAE97F-ADD9-4641-9D34-D638AEC8249E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\tests">
+      <UniqueIdentifier>{E3405B1A-DBE7-4FDD-A9EA-22ADB4E92F4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\physics\joints">
+      <UniqueIdentifier>{D821B2BA-27B2-47B7-9130-E52BA43D03BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\editor\fileserver">
+      <UniqueIdentifier>{FE02E665-3A12-4DD8-A93B-A48BF02425B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\editor\io_plugins">
+      <UniqueIdentifier>{9536E4E0-8727-44F6-AB66-59F9CB4D1290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\editor\plugins">
+      <UniqueIdentifier>{04C9407D-5799-489A-85AB-048376497F4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\ripemd\asm">
+      <UniqueIdentifier>{4A5E1868-145F-46D0-8D88-F84725E6B7FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\android">
+      <UniqueIdentifier>{BDAB0D99-2096-4078-9D97-E43C0F6300E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\bb10">
+      <UniqueIdentifier>{C38DFE4C-61F6-40AF-9FA8-7EA3030F362B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\flash">
+      <UniqueIdentifier>{8CB4B8C9-2352-49B2-9FA6-5CB0086CE630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\haiku">
+      <UniqueIdentifier>{05377E43-A6A8-4AEF-B3FD-067BE057C299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\iphone">
+      <UniqueIdentifier>{AFD84A44-24F1-4DC7-8836-7B5EC054423A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\javascript">
+      <UniqueIdentifier>{132174F0-ECD9-41F2-831D-7E74A4AD95A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\nacl">
+      <UniqueIdentifier>{56BBBF6C-FA5F-498C-9326-125F1185125E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\osx">
+      <UniqueIdentifier>{7CE0EAEF-189B-46B0-AC40-F55165837B51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\server">
+      <UniqueIdentifier>{628DC66A-A8B9-40A6-828D-AC45405A59A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows">
+      <UniqueIdentifier>{BD3EC415-F089-44B7-8443-41ED27816DA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\winrt">
+      <UniqueIdentifier>{98CC7C3C-A871-4E51-9075-A6AA95D23D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\x11">
+      <UniqueIdentifier>{B6A998F2-6BA3-4081-BDA1-487C179F7712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\resources">
+      <UniqueIdentifier>{CDC8BAD8-3CF9-4F23-8DF9-085299047006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\2d">
+      <UniqueIdentifier>{24A77136-37B5-4F9E-988C-75747187A1DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\3d">
+      <UniqueIdentifier>{70C323B5-3601-4D92-AE7C-E1ABACAA1829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\animation">
+      <UniqueIdentifier>{47BE9A33-B012-4CA0-B99F-CD435E3D1B49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\audio">
+      <UniqueIdentifier>{D0477C21-4CD1-4C2F-ABAB-7E143214E4D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\gui">
+      <UniqueIdentifier>{C17BB3A0-AB04-4296-89A0-AEE71F726147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\io">
+      <UniqueIdentifier>{93B20780-5377-4C8C-8631-74E305B73F61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\main">
+      <UniqueIdentifier>{354017F9-0837-46D9-8326-F9E6BA58A372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2">
+      <UniqueIdentifier>{DC7A1387-76B6-4B3D-98FB-E373CBDA7369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\gl_context">
+      <UniqueIdentifier>{5907EA15-F39A-47B0-9627-DF185A3A5836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\jpg">
+      <UniqueIdentifier>{017B27AC-B384-4AA9-ACE1-1B751FFB69DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\mpc">
+      <UniqueIdentifier>{4D19FCBD-7DAE-4557-88FF-A115CAA374FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\nedmalloc">
+      <UniqueIdentifier>{46AF31B4-7F58-4557-9E38-D69AFD1BBFB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\openssl">
+      <UniqueIdentifier>{FB59123B-9D4A-4824-B360-93D5B50367F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\opus">
+      <UniqueIdentifier>{45784365-7070-4397-9632-8831A792B7E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\png">
+      <UniqueIdentifier>{92F83D91-DAD4-447C-B67B-02CB5556F16D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\speex">
+      <UniqueIdentifier>{6E75A68E-2334-4BAD-8EEF-ED3F6F4CBD57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\theora">
+      <UniqueIdentifier>{4A8EC0F7-A362-4685-85DA-71188CC43C9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\vorbis">
+      <UniqueIdentifier>{2AE84810-9823-44E4-A43A-ACA9DFC83A6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\webp">
+      <UniqueIdentifier>{61DC92A3-C65D-4A00-93A6-C4608CC54740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\webpold">
+      <UniqueIdentifier>{BD50F2BB-2482-4415-A6F7-44B11123D435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\alsa">
+      <UniqueIdentifier>{60AD9781-F1D6-486B-AE0A-9C6011FA050B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\chibi">
+      <UniqueIdentifier>{6E4D6B38-DEDE-40A7-BE11-87909D671903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\convex_decomp">
+      <UniqueIdentifier>{6563CC62-9061-4288-B142-F2FFC38C344B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\dds">
+      <UniqueIdentifier>{9B7CD7B7-778B-4C5E-8916-F00043ACFB58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\etc1">
+      <UniqueIdentifier>{B1A812FC-44B6-4CBA-AF68-C46D93856943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\gles2">
+      <UniqueIdentifier>{89D5B769-24A9-441E-A7C7-69A8589420AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\nrex">
+      <UniqueIdentifier>{565869EE-A660-4381-A4BE-511BEF8C75EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\pulseaudio">
+      <UniqueIdentifier>{AA81C53B-439E-49B1-95E3-F78E60CF80C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\pvr">
+      <UniqueIdentifier>{C176E0E7-95BC-4216-B6CA-609B06DD2DF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\rtaudio">
+      <UniqueIdentifier>{20EC9FB8-9FF5-4DD1-870C-8F48E9D12D3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\squish">
+      <UniqueIdentifier>{F6DD344D-7D03-4726-A01D-A21A2ED06DEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\unix">
+      <UniqueIdentifier>{0C5824FA-035D-4A11-AEAC-9690E83068FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\windows">
+      <UniqueIdentifier>{102D8E03-C199-44B0-862C-723089B54565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\collada">
+      <UniqueIdentifier>{FEA0455A-E412-40C4-800E-2B34B54FCE9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\doc">
+      <UniqueIdentifier>{47E3030C-7959-4EC7-92CF-8C5411FE3E05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\docdump">
+      <UniqueIdentifier>{06E967C1-F00B-4E34-BFEF-720B12C2982A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\editor">
+      <UniqueIdentifier>{6477C18D-2A52-4947-9F6B-8D6DB0B203EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\pck">
+      <UniqueIdentifier>{B51C2F8B-998A-4660-9258-908B9EE1B6C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\pe_bliss">
+      <UniqueIdentifier>{A210280C-CF34-4F01-9EFE-D75808DEA890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\bf">
+      <UniqueIdentifier>{92844241-88AC-429C-B014-BAD6395C1C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\cast">
+      <UniqueIdentifier>{649E6A4C-3D92-4DFF-B124-B70BFA381924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\des">
+      <UniqueIdentifier>{57BE05FB-EB7C-4ED3-B348-E8096E226A9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\md4">
+      <UniqueIdentifier>{433D9A1C-A0E0-44BB-B94C-4380D2004FF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\md5">
+      <UniqueIdentifier>{8D22D1EC-84B1-48ED-91A3-95B4143154F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\rc4">
+      <UniqueIdentifier>{0BD7AC9D-F865-45A3-9946-72E699C6A128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\rc5">
+      <UniqueIdentifier>{87D1C43F-FB92-41DA-8282-4B592848558F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto\ripemd">
+      <UniqueIdentifier>{E5FF232D-5849-47AB-932D-45213E997CA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\android\export">
+      <UniqueIdentifier>{4A281221-36B7-44CB-8ED1-8685BCD10185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\android\globals">
+      <UniqueIdentifier>{D5A0321F-2746-46C0-AE11-B71A0F955141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers\builtin_openssl2\crypto">
+      <UniqueIdentifier>{6EF1EE87-0D34-4BF0-8333-C121F6C114C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\gdscript">
+      <UniqueIdentifier>{15A729DA-9029-42C9-B1DC-2B6680D28F37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\gridmap">
+      <UniqueIdentifier>{5FD05639-2B19-4C93-9B95-97383897E213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{4E024327-2275-4883-A946-CE2B97F513FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers">
+      <UniqueIdentifier>{24692E59-395F-43DB-B103-4D4B610AE547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4FBDC425-B0DF-40DD-9D9A-BF91C880C864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{C2800443-6262-4A51-BAE6-2D5A40F0FFA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{0240CF6A-1D8B-4C4B-A11C-44EB84DF9921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{223E70D5-A4C4-4750-A4AB-06283624E572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{CD34B5C7-F0CE-4D64-B20F-5E7669B74051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{C9D492BB-66E3-41A8-B0E7-E8D230A43637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers">
+      <UniqueIdentifier>{8135DA86-9BBF-450B-8CC4-8F0FEF6744FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\io">
+      <UniqueIdentifier>{36278E39-B9F4-4649-B89F-FC1F6E648DB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\bind">
+      <UniqueIdentifier>{C0D1FB01-77EF-42D0-8ED6-A00C6334E618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\math">
+      <UniqueIdentifier>{5F1C3777-1660-4C1B-81F8-B908E7378B17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\os">
+      <UniqueIdentifier>{718E4E6F-5CE7-43E3-96DD-F08ED4BC8C3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\audio">
+      <UniqueIdentifier>{1889A40D-6965-4D82-8C1E-1F6E8A474524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\physics">
+      <UniqueIdentifier>{8B8F4335-429B-480E-8F12-336F5B7AEF2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\physics_2d">
+      <UniqueIdentifier>{15EF03DB-B1FD-4C94-BB81-19669A2B6383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\spatial_sound">
+      <UniqueIdentifier>{F8FF805C-FAEF-481E-A3EF-B42EE05F159C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\spatial_sound_2d">
+      <UniqueIdentifier>{B55D14C7-1C2D-49DB-B1F3-D3298BA12069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servers\visual">
+      <UniqueIdentifier>{A152F276-3B35-49CE-B9C7-5FCA9B9C5A39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

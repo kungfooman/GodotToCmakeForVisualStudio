@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/godot-gcc5.2/CMakeLists.txt
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/3.3.2/CMakeSystem.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/3.3.2/CMakeCCompiler.cmake
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/3.3.2/CMakeCXXCompiler.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/Windows.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeCInformation.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/3.3.2/CMakeRCCompiler.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+C:/msys64/mingw64/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake

@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F3846A83-CC08-4CD1-8DFA-9C6B75E374D3}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>godot</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">godot.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">godot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">godot.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">godot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">godot.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">godot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">godot.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">godot</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TOOLS_ENABLED;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;TOOLS_ENABLED;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/Debug/godot.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/Debug/godot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/Release/godot.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/Release/godot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/MinSizeRel/godot.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/MinSizeRel/godot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TOOLS_ENABLED;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\godot-gcc5.2\.;C:\godot-gcc5.2\bin\tests;C:\godot-gcc5.2\core;C:\godot-gcc5.2\core\bind;C:\godot-gcc5.2\core\io;C:\godot-gcc5.2\core\math;C:\godot-gcc5.2\core\os;C:\godot-gcc5.2\drivers;C:\godot-gcc5.2\drivers\alsa;C:\godot-gcc5.2\drivers\builtin_openssl2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\aes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\asn1;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bio;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bn;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\camellia;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cms;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\conf;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\dsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ec;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdh;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ecdsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\engine;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\evp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\idea;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\jpake;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\modes;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\objects;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\pkcs7;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rand;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc2;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rsa;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\seed;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\sha;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\srp;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\store;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ui;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\whrlpool;C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\x509v3;C:\godot-gcc5.2\drivers\builtin_openssl2\openssl;C:\godot-gcc5.2\drivers\builtin_openssl2\ssl;C:\godot-gcc5.2\drivers\builtin_zlib\zlib;C:\godot-gcc5.2\drivers\chibi;C:\godot-gcc5.2\drivers\convex_decomp;C:\godot-gcc5.2\drivers\dds;C:\godot-gcc5.2\drivers\etc1;C:\godot-gcc5.2\drivers\gl_context;C:\godot-gcc5.2\drivers\gles2;C:\godot-gcc5.2\drivers\gles2\shaders;C:\godot-gcc5.2\drivers\jpg;C:\godot-gcc5.2\drivers\mpc;C:\godot-gcc5.2\drivers\nedmalloc;C:\godot-gcc5.2\drivers\nrex;C:\godot-gcc5.2\drivers\ogg;C:\godot-gcc5.2\drivers\openssl;C:\godot-gcc5.2\drivers\opus;C:\godot-gcc5.2\drivers\opus\celt;C:\godot-gcc5.2\drivers\opus\celt\arm;C:\godot-gcc5.2\drivers\opus\celt\x86;C:\godot-gcc5.2\drivers\opus\silk;C:\godot-gcc5.2\drivers\opus\silk\arm;C:\godot-gcc5.2\drivers\opus\silk\fixed;C:\godot-gcc5.2\drivers\opus\silk\float;C:\godot-gcc5.2\drivers\png;C:\godot-gcc5.2\drivers\pulseaudio;C:\godot-gcc5.2\drivers\pvr;C:\godot-gcc5.2\drivers\rtaudio;C:\godot-gcc5.2\drivers\speex;C:\godot-gcc5.2\drivers\squish;C:\godot-gcc5.2\drivers\theora;C:\godot-gcc5.2\drivers\theora\x86;C:\godot-gcc5.2\drivers\theora\x86_vc;C:\godot-gcc5.2\drivers\unix;C:\godot-gcc5.2\drivers\vorbis;C:\godot-gcc5.2\drivers\vorbis\books\coupled;C:\godot-gcc5.2\drivers\vorbis\books\floor;C:\godot-gcc5.2\drivers\vorbis\books\uncoupled;C:\godot-gcc5.2\drivers\vorbis\modes;C:\godot-gcc5.2\drivers\webp;C:\godot-gcc5.2\drivers\webp\dec;C:\godot-gcc5.2\drivers\webp\dsp;C:\godot-gcc5.2\drivers\webp\enc;C:\godot-gcc5.2\drivers\webp\mux;C:\godot-gcc5.2\drivers\webp\utils;C:\godot-gcc5.2\drivers\webpold;C:\godot-gcc5.2\drivers\webpold\dec;C:\godot-gcc5.2\drivers\webpold\dsp;C:\godot-gcc5.2\drivers\webpold\enc;C:\godot-gcc5.2\drivers\webpold\mux;C:\godot-gcc5.2\drivers\webpold\utils;C:\godot-gcc5.2\drivers\windows;C:\godot-gcc5.2\main;C:\godot-gcc5.2\modules;C:\godot-gcc5.2\modules\gdscript;C:\godot-gcc5.2\modules\gridmap;C:\godot-gcc5.2\platform\android;C:\godot-gcc5.2\platform\android\export;C:\godot-gcc5.2\platform\android\globals;C:\godot-gcc5.2\platform\bb10;C:\godot-gcc5.2\platform\bb10\export;C:\godot-gcc5.2\platform\flash;C:\godot-gcc5.2\platform\flash\include\EGL;C:\godot-gcc5.2\platform\flash\include\GL;C:\godot-gcc5.2\platform\flash\include\GLES;C:\godot-gcc5.2\platform\flash\include\GLES2;C:\godot-gcc5.2\platform\haiku;C:\godot-gcc5.2\platform\iphone;C:\godot-gcc5.2\platform\iphone\globals;C:\godot-gcc5.2\platform\javascript;C:\godot-gcc5.2\platform\javascript\export;C:\godot-gcc5.2\platform\nacl;C:\godot-gcc5.2\platform\osx;C:\godot-gcc5.2\platform\osx\export;C:\godot-gcc5.2\platform\server;C:\godot-gcc5.2\platform\windows;C:\godot-gcc5.2\platform\windows\export;C:\godot-gcc5.2\platform\winrt;C:\godot-gcc5.2\platform\winrt\include;C:\godot-gcc5.2\platform\winrt\include\EGL;C:\godot-gcc5.2\platform\winrt\include\GLES2;C:\godot-gcc5.2\platform\winrt\include\GLES3;C:\godot-gcc5.2\platform\winrt\include\GLSLANG;C:\godot-gcc5.2\platform\winrt\include\KHR;C:\godot-gcc5.2\platform\x11;C:\godot-gcc5.2\platform\x11\export;C:\godot-gcc5.2\scene;C:\godot-gcc5.2\scene\2d;C:\godot-gcc5.2\scene\3d;C:\godot-gcc5.2\scene\animation;C:\godot-gcc5.2\scene\audio;C:\godot-gcc5.2\scene\gui;C:\godot-gcc5.2\scene\io;C:\godot-gcc5.2\scene\main;C:\godot-gcc5.2\scene\resources;C:\godot-gcc5.2\scene\resources\default_theme;C:\godot-gcc5.2\servers;C:\godot-gcc5.2\servers\audio;C:\godot-gcc5.2\servers\physics;C:\godot-gcc5.2\servers\physics\joints;C:\godot-gcc5.2\servers\physics_2d;C:\godot-gcc5.2\servers\spatial_sound;C:\godot-gcc5.2\servers\spatial_sound_2d;C:\godot-gcc5.2\servers\visual;C:\godot-gcc5.2\tools\collada;C:\godot-gcc5.2\tools\doc;C:\godot-gcc5.2\tools\docdump;C:\godot-gcc5.2\tools\editor;C:\godot-gcc5.2\tools\editor\fileserver;C:\godot-gcc5.2\tools\editor\io_plugins;C:\godot-gcc5.2\tools\editor\plugins;C:\godot-gcc5.2\tools\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\config;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal;C:\godot-gcc5.2\tools\freetype\freetype\include\freetype\internal\services;C:\godot-gcc5.2\tools\freetype\freetype\src\autofit;C:\godot-gcc5.2\tools\freetype\freetype\src\base;C:\godot-gcc5.2\tools\freetype\freetype\src\bdf;C:\godot-gcc5.2\tools\freetype\freetype\src\cache;C:\godot-gcc5.2\tools\freetype\freetype\src\cff;C:\godot-gcc5.2\tools\freetype\freetype\src\cid;C:\godot-gcc5.2\tools\freetype\freetype\src\gxvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\otvalid;C:\godot-gcc5.2\tools\freetype\freetype\src\pcf;C:\godot-gcc5.2\tools\freetype\freetype\src\pfr;C:\godot-gcc5.2\tools\freetype\freetype\src\psaux;C:\godot-gcc5.2\tools\freetype\freetype\src\pshinter;C:\godot-gcc5.2\tools\freetype\freetype\src\psnames;C:\godot-gcc5.2\tools\freetype\freetype\src\raster;C:\godot-gcc5.2\tools\freetype\freetype\src\sfnt;C:\godot-gcc5.2\tools\freetype\freetype\src\smooth;C:\godot-gcc5.2\tools\freetype\freetype\src\truetype;C:\godot-gcc5.2\tools\freetype\freetype\src\type1;C:\godot-gcc5.2\tools\freetype\freetype\src\type42;C:\godot-gcc5.2\tools\freetype\freetype\src\winfonts;C:\godot-gcc5.2\tools\pck;C:\godot-gcc5.2\tools\pe_bliss;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/RelWithDebInfo/godot.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/RelWithDebInfo/godot.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\godot-gcc5.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/godot-gcc5.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -HC:/godot-gcc5.2 -BC:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio --check-stamp-file C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/godot-gcc5.2/CMakeLists.txt;C:\godot-gcc5.2\CMakeLists.txt;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCCompiler.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\godot-gcc5.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/godot-gcc5.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -HC:/godot-gcc5.2 -BC:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio --check-stamp-file C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/godot-gcc5.2/CMakeLists.txt;C:\godot-gcc5.2\CMakeLists.txt;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCCompiler.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\godot-gcc5.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/godot-gcc5.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -HC:/godot-gcc5.2 -BC:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio --check-stamp-file C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/godot-gcc5.2/CMakeLists.txt;C:\godot-gcc5.2\CMakeLists.txt;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCCompiler.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\godot-gcc5.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/godot-gcc5.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -HC:/godot-gcc5.2 -BC:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio --check-stamp-file C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/godot-gcc5.2/CMakeLists.txt;C:\godot-gcc5.2\CMakeLists.txt;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCCompiler.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;C:\godot-gcc5.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\godot-gcc5.2\GodotToCmakeForVisualStudio\visualstudio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\godot-gcc5.2\core\io\aes256.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\compression.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\config_file.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_buffered.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_compressed.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_encrypted.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_memory.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_network.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_pack.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\file_access_zip.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\http_client.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\image_loader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\ip.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\ip_address.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\json.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\marshalls.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\md5.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\packet_peer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\packet_peer_udp.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_format_binary.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_format_xml.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_loader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\resource_saver.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer_ssl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\stream_peer_tcp.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\tcp_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\translation_loader_po.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\io\xml_parser.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\bf\bfs.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\cast\casts.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des\des3s.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\des\dess.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md4\md4s.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\md5\md5s.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc4\rc4s.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\rc5\rc5s.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gl_context\context_gl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\jpg\image_loader_jpg.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\mpc\audio_stream_mpc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nedmalloc\memory_pool_static_nedmalloc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nedmalloc\nedmalloc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\openssl\register_openssl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\openssl\stream_peer_openssl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\opus\audio_stream_opus.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\png\image_loader_png.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\png\resource_saver_png.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\speex\audio_stream_speex.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\speex\speex_bind.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\theora\video_stream_theora.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\vorbis\audio_stream_ogg_vorbis.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\audio_driver_jandroid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\audio_driver_opensl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\dir_access_android.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\dir_access_jandroid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\file_access_android.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\file_access_jandroid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\godot_android.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\ifaddrs_android.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_bind.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_class_wrapper.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\java_glue.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\os_android.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\thread_jandroid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\audio_driver_bb10.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\godot_bb10.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\os_bb10.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\payment_service.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\animation.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\audio_stream.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\audio_stream_resampled.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\baked_light.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\bit_mask.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\bounds.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\box_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\canvas.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\capsule_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\capsule_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\circle_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\color_ramp.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\concave_polygon_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\concave_polygon_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\convex_polygon_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\convex_polygon_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\curve.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\environment.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\event_stream.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\font.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\gibberish_stream.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\height_map_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\material.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh_data_tool.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\mesh_library.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\multimesh.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\packed_scene.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\plane_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\polygon_path_finder.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\ray_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\rectangle_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\rich_text.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\room.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sample.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sample_library.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\scene_format_text.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\scene_preloader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\segment_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shader_graph.cpp" >
+      <ObjectFileName>$(IntDir)/scene/resources/shader_graph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\shape_line_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\space_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\sphere_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\style_box.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\surface_tool.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\texture.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\theme.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\tile_set.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\video_stream.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\volume.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\world.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\world_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_containers.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_detailer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_gdscript.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_gui.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_image.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_io.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_main.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_math.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_misc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_particles.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_physics.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_physics_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_python.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_render.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_shader_lang.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_sound.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\bin\tests\test_string.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\array.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\color.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\command_queue_mt.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\compressed_translation.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\core_string_names.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\dictionary.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\dvector.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\error_macros.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\event_queue.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\fpstr.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\func_ref.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\globals.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\global_constants.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\global_defaults.cpp" >
+      <ObjectFileName>$(IntDir)/core/global_defaults.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\core\image.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\image_quantize.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\input_map.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\message_queue.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\method_bind.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\object.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\object_type_db.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\packed_data_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\pair.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\path_db.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\path_remap.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\pool_allocator.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\print_string.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\reference.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\ref_ptr.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\register_core_types.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\resource.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\res_ptr.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\rid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\safe_refcount.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_debugger.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_local.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\script_debugger_remote.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\script_encryption_key.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\script_language.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\string_db.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\translation.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\undo_redo.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\ustring.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\variant.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_call.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_construct_string.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_op.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\variant_parser.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\vmap.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\vset.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\bind\core_bind.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\aabb.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\bezier_curve.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\bsp_tree.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\camera_matrix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\face3.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\geometry.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_defs.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\math_funcs.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\matrix3.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\plane.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\quat.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\quick_hull.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\transform.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangle_mesh.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangulate.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\triangulator.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\math\vector3.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\copymem.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\dir_access.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\file_access.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\input.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\input_event.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\keyboard.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\main_loop.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic_prealloc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_dynamic_static.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\memory_pool_static.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\mutex.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\os.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\semaphore.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\shell.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread_dummy.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\core\os\thread_safe.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\register_driver_types.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\alsa\audio_driver_alsa.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\builtin_openssl2\crypto\ripemd\asm\rips.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_envelope.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_file_access_wrapper.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_instrument.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_info.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_instruments.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_patterns.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_it_samples.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_mod.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_s3m.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_loader_xm.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_pattern.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_control.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_effects.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_envelopes.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_events.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_filter.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_nna.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_notes.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_reserved.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_player_data_utils.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_sample.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_sample_manager.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_song.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\cp_tables.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\chibi\event_stream_chibi.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2d_decompose.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2Polygon.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\convex_decomp\b2Triangle.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\dds\texture_loader_dds.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\etc1\image_etc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\etc1\rg_etc1.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\rasterizer_gles2.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\rasterizer_instance_gles2.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\shader_compiler_gles2.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\gles2\shader_gles2.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nrex\nrex.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\nrex\regex.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pulseaudio\audio_driver_pulseaudio.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\BitScale.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\MortonTable.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcDecoder.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcEncoder.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\PvrTcPacket.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\pvr\texture_loader_pvr.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\rtaudio\audio_driver_rtaudio.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\rtaudio\RtAudio.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\alpha.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\clusterfit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourblock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourfit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\colourset.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\image_compress_squish.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\maths.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\rangefit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\singlecolourfit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\squish\squish.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\dir_access_unix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\file_access_unix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\ip_unix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\memory_pool_static_malloc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\mutex_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\os_unix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\os_unix_global_settings_path.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\packet_peer_udp_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\semaphore_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\stream_peer_tcp_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\tcp_server_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\unix\thread_posix.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\webp\image_loader_webp.cpp" >
+      <ObjectFileName>$(IntDir)/drivers/webp/image_loader_webp.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\webpold\image_loader_webp.cpp" >
+      <ObjectFileName>$(IntDir)/drivers/webpold/image_loader_webp.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\dir_access_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\file_access_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\mutex_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\semaphore_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\shell_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\drivers\windows\thread_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\main\input_default.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\main\main.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\main\performance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\register_module_types.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_compiler.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_functions.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_parser.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_pretty_print.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_script.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\gd_tokenizer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gdscript\register_types.cpp" >
+      <ObjectFileName>$(IntDir)/modules/gdscript/register_types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\grid_map.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\grid_map_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\modules\gridmap\register_types.cpp" >
+      <ObjectFileName>$(IntDir)/modules/gridmap/register_types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/android/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\android\globals\global_defaults.cpp" >
+      <ObjectFileName>$(IntDir)/platform/android/globals/global_defaults.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\bb10\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/bb10/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\dir_access_flash.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\godot_flash.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\os_flash.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\flash\rasterizer_flash.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\audio_driver_media_kit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\context_gl_haiku.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\godot_haiku.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_application.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_direct_window.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\haiku_gl_view.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\key_mapping_haiku.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\haiku\os_haiku.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\audio_driver_iphone.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\godot_iphone.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\os_iphone.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\rasterizer_iphone.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\sem_iphone.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\iphone\globals\global_defaults.cpp" >
+      <ObjectFileName>$(IntDir)/platform/iphone/globals/global_defaults.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\audio_driver_javascript.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\audio_server_javascript.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\javascript_main.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\os_javascript.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\javascript\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/javascript/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\audio_driver_nacl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\context_gl_nacl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\geturl_handler.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\godot_module.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\godot_nacl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\opengl_context.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\os_nacl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\nacl\pepper_main.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\audio_driver_osx.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\context_gl_osx.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\sem_osx.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\osx\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/osx/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\server\godot_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\server\os_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\context_gl_win.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\ctxgl_procaddr.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\godot_win.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\joystick.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\key_mapping_win.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\os_windows.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\packet_peer_udp_winsock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\stream_peer_winsock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\tcp_server_winsock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\windows\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/windows/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\app.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\gl_context_egl.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\os_winrt.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\winrt\thread_winrt.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\context_gl_x11.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\godot_x11.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\joystick_linux.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\key_mapping_x11.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\os_x11.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\platform\x11\export\export.cpp" >
+      <ObjectFileName>$(IntDir)/platform/x11/export/export.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\scene\register_scene_types.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\scene_string_names.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\animated_sprite.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\area_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\back_buffer_copy.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\camera_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\canvas_item.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\canvas_modulate.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_object_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_polygon_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\collision_shape_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\joints_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\light_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\light_occluder_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\navigation2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\navigation_polygon.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\node_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\node_2d_singleton.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\parallax_background.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\parallax_layer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\particles_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\path_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\path_texture.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\physics_body_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\polygon_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\position_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\ray_cast_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\remote_transform_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sample_player_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\screen_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sound_player_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\sprite.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\tile_map.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\visibility_notifier_2d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\2d\y_sort.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\area.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\baked_light_instance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\body_shape.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\bone_attachment.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\camera.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\character_camera.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\collision_object.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\collision_polygon.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\immediate_geometry.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\interpolated_camera.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\light.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\mesh_instance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\multimesh_instance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation_agent.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\navigation_mesh.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\optimized_spatial_scene.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\particles.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\path.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\physics_body.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\physics_joint.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\portal.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\position_3d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\proximity_group.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\quad.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\ray_cast.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\room_instance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\scenario_fx.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\skeleton.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_indexer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_sample_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\spatial_stream_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\sprite_3d.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\test_cube.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\vehicle_body.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\visibility_notifier.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\3d\visual_instance.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_cache.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\animation_tree_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\transitioner.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\tween.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\animation\tween_interpolaters.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\event_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\sample_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\sound_room_params.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\audio\stream_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\base_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\box_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button_array.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\button_group.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\center_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\check_box.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\check_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\color_picker.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\color_ramp_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\control.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\custom_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\dialogs.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\file_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\graph_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\graph_node.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\grid_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\item_list.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\label.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\line_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\margin_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\menu_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\option_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\panel.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\panel_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\patch_9_frame.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\popup.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\popup_menu.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\progress_bar.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\range.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\reference_frame.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\rich_text_label.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\scroll_bar.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\scroll_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\separator.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\slider.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\spin_box.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\split_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tabs.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tab_container.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_frame.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\texture_progress.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\text_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tool_button.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\tree.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\gui\video_player.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\io\resource_format_image.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\io\resource_format_wav.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\canvas_layer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\instance_placeholder.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\misc.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\node.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\resource_preloader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\scene_main_loop.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\scene_singleton.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\timer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\main\viewport.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\scene\resources\default_theme\default_theme.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\register_server_types.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_2d_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_driver_dummy.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_filter_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_mixer_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_rb_resampler.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\audio_server_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\reverb_buffers_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\reverb_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\sample_manager_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\audio\voice_rb_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\area_pair_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\area_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\body_pair_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\body_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_basic.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_octree.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\broad_phase_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_object_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_solver_sat.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\collision_solver_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\constraint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\gjk_epa.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\physics_server_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\shape_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\space_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\step_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\cone_twist_joint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\generic_6dof_joint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\hinge_joint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\jacobian_entry_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\pin_joint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics\joints\slider_joint_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\area_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\area_pair_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\body_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\body_pair_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_basic.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_hash_grid.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\broad_phase_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_object_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_solver_2d_sat.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\collision_solver_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\constraint_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\joints_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\physics_2d_server_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\physics_2d_server_wrap_mt.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\shape_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\space_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\physics_2d\step_2d_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound\spatial_sound_server_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\spatial_sound_2d\spatial_sound_2d_server_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\particle_system_sw.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\rasterizer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\rasterizer_dummy.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_compiler.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_graph.cpp" >
+      <ObjectFileName>$(IntDir)/servers/visual/shader_graph.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\shader_language.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\visual_server_raster.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\servers\visual\visual_server_wrap_mt.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\collada\collada.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\doc\doc_data.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\docdump\doc_dump.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\animation_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\array_property_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\call_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\code_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\connections_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\console.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\create_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\default_saver.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\dependency_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_data.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_dir_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_file_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_file_system.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_fonts.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_help.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_icons.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_import_export.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_log.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_name_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_node.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_path.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_reimport_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_resource_preview.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run_native.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_run_script.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_selection.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_settings.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_sub_scene.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\editor_vu.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\file_type_cache.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\groups_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\import_settings.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\inspector_dock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\multi_node_edit.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\optimized_save_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\output_strings.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\pane_drag.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\progress_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_export.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_manager.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\project_settings.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\property_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\pvrtc_compress.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\quick_open.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\register_exporters.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\reparent_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\resources_dock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\run_settings_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scenes.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scenes_dock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scene_tree_dock.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\scene_tree_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\script_create_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\script_editor_debugger.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\settings_config_dialog.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\spatial_editor_gizmos.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\fileserver\editor_file_server.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_atlas.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_export_scene.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_font_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_import_collada.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_mesh_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_sample_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_scene_importer_fbxconv.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_scene_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_texture_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\io_plugins\editor_translation_import_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_data_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_player_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\animation_tree_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_baker.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_baker_cmpxchg.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\baked_light_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\camera_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\canvas_item_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_polygon_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_polygon_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\collision_shape_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\color_ramp_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\control_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\cube_grid_theme_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\editor_preview_plugins.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\item_list_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\light_occluder_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\mesh_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\multimesh_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\navigation_polygon_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\particles_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\particles_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\path_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\path_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\polygon_2d_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\resource_preloader_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\rich_text_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_library_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sample_player_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\script_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\shader_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\shader_graph_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\spatial_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sprite_frames_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\sprite_region_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\stream_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\style_box_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\theme_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\tile_map_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\editor\plugins\tile_set_editor_plugin.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pck\pck_packer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\entropy.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\file_version_info.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\message_table.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_base.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_bliss_godot.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_bound_import.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_checksum.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_debug.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_directory.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_dotnet.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exception.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exception_directory.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_exports.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_factory.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_imports.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_load_config.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_properties.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_properties_generic.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_rebuilder.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_relocations.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resources.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resource_manager.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_resource_viewer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_rich_data.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_section.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\pe_tls.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_bitmap_reader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_bitmap_writer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_cursor_icon_reader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_cursor_icon_writer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_data_info.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_message_list_reader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_string_table_reader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_version_info_reader.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\resource_version_info_writer.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\utils.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\version_info_editor.cpp"  />
+    <ClCompile Include="C:\godot-gcc5.2\tools\pe_bliss\version_info_viewer.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/ZERO_CHECK.vcxproj">
+      <Project>6A2813B1-5F09-42B6-9C9E-544C80F81475</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

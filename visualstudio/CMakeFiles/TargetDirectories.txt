@@ -1,0 +1,3 @@
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/ALL_BUILD.dir
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/ZERO_CHECK.dir
+C:/godot-gcc5.2/GodotToCmakeForVisualStudio/visualstudio/CMakeFiles/godot.dir
